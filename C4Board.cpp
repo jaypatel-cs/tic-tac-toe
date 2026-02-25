@@ -2,13 +2,6 @@
 // Implements the Connect Four game logic, including board display,
 // player turns, move validation, and win/tie detection.
 
-//CHATGPT
-//Used chatgpt to grade all code and found that my program didn't stop when the board was full and nobody had won yet
-//Added isBoardFull function to C4Board.h and C4Board.cpp
-//Also used it because the new if statement I wrote in play() works fine to break when board is full however doesn't work in playComputer()
-//so I used chatgpt to find out why and it turns out it was because make only compiles all of the other files and main.cpp not bonus.cpp.
-//so I compiled it separately and it worked fine
- 
 #include <iostream>
 #include "C4Board.h"
 using namespace std;
